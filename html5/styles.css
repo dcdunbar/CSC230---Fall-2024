@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* Window and Body Styles */
+html {
+  background-color: #121212; /* Darker background for visual separation */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #dcdcdc;
+}
+
+/* Header Navigation */
+body > header nav a:hover {
+  background-color: #4a4a4a; /* Slightly lighter hover color */
+  color: #ffffff; /* White hover text */
+}
+
+/* Section Styles */
+section {
+  background-color: #1a1a1a; /* Same as body background */
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+section h2 {
+  color: #f0f0f0;
+}
+
+/* Sidebar Links */
+aside ul li a {
+  color: #a8a8a8; /* Muted grey for links */
+}
+
+aside ul li a:hover {
+  color: #ffffff; /* Highlighted on hover */
+}
+
+/* Footer */
+footer {
+  font-size: 0.9em;
+}
